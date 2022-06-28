@@ -28,6 +28,12 @@
 <script src="resources_landingpage/jquery.min.js"></script>
 <script src="resources_landingpage/jquery.fancybox.min.js"></script>
 <script src="resources_landingpage/app.js"></script>
+<script  >
+if (location.protocol !== 'https:') {
+    location.replace(`https:${location.href.substring(location.protocol.length)}`);
+}
+
+</script>
 </head>
 <body>
     <ul class="left-nav" style="transform: scale(0.991146); top: 0px;">
