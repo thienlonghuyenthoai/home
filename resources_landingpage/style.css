@@ -670,7 +670,7 @@ footer .footer a {
 .fixed-menu-sidebar {
     position: fixed;
     right: 0;
-    top: 20%;
+    top: 6%;
     background: url('2.png') center no-repeat;
     background-size: cover;
     height: 439px;
