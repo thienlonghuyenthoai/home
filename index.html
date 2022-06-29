@@ -1,13 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from thienlongchutuoc.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Jun 2022 10:21:37 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
-	<!-- Google Tag Manager -->
- 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=0">
 <meta name="robots" content="index, follow">
@@ -24,7 +18,6 @@
 <title>TLBB Huyền Thoại</title>
 <link rel="stylesheet" href="resources_landingpage/jquery.fancybox.min.css">
 <link rel="stylesheet" href="resources_landingpage/style.css">
-
 <script src="resources_landingpage/jquery.min.js"></script>
 <script src="resources_landingpage/jquery.fancybox.min.js"></script>
 <script src="resources_landingpage/app.js"></script>
@@ -32,9 +25,6 @@
 if (location.protocol !== 'https:') {
     location.replace(`https:${location.href.substring(location.protocol.length)}`);
 }
-
-
-
 </script>
 </head>
 <body>
@@ -207,7 +197,36 @@ if (location.protocol !== 'https:') {
         <div id="overlay-modal" class="modal-overlay"></div>
     </div>
 	
-	
+<!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "100331995052835");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 </body>
 
  
