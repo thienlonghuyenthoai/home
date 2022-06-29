@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0026)http://tlquaphe.com/Launch -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Start Page</title>
+    <style type="text/css">
+html {
+  scrollbar-face-color: #403a3a;
+  scrollbar-arrow-color: #0a0909;
+  scrollbar-track-color: #0a0909;
+  scrollbar-highlight-color: #403a3a;
+  scrollbar-shadow-color: #403a3a;
+  scrollbar-base-color: #403a3a;
+}
+  body {
+    font-family:Arial;
+    font-size:11px;
+    background-color:#211D1C;
+    border:none;
+    margin:0px;
+    padding:5px 7px;
+    line-height:12px;
+    color:#999;
+    cursor:default;
+    overflow-x:hidden;
+    -ms-overflow-x:hidden;
+  }
+  a {
+    text-decoration: none;
+    color: #ecc363;
+    font-family: Arial;
+    font-weight: bold;
+  }
+  a:hover{
+    color:#d0351f;
+  }
+  img {
+    border: none;
+    max-width: 100%;
+  }
+  ul{
+    padding-left: 12px;
+  }
+  ul li{
+    list-style-image: url('http://id.thienlongkyniem.com/images/site/tl/Launch/Bullet.gif');
+    padding-bottom: 2px;
+    border-bottom: 1px dotted #656565;
+  }
+  ul li:last-child{
+    border-bottom: 0;
+  }
+  ul li a:link{
+    color:#c2a47a;
+  }
+  ul li a:visited{
+    color:#c2a47a;
+    font-weight: normal;
+  }
+  ul li .date{
+    float: right;
+  }
+    </style>
+    <script type="text/javascript">
+
+      // if (window.Event)
+      //   document.captureEvents(Event.MOUSEUP);
+
+      function nocontextmenu(event)
+      {
+        if (!event)
+        {
+          return false;
+        }
+        event.cancelBubble = true
+        event.returnValue = false;
+        return false;
+      }
+
+      function norightclick(event)
+      {
+        if (window.Event)
+        {
+          // if (e.which == 2 || e.which == 3)
+          return false;
+        }
+        else
+        {
+          if (event.button == 2 || event.button == 3)
+          {
+            event.cancelBubble = true
+            event.returnValue = false;
+            return false;
+          }
+        }
+      }
+      document.oncontextmenu = nocontextmenu;
+      document.onmousedown = norightclick;
+    </script>
+  </head>
+  <body onselectstart="return false">
+    <div style="text-align: center;">
+      <img src="ThongBao1.jpg">
+    </div>
+    <ul id="news">
+     <li>
+            <a href="a" title="a" target="_blank">
+              <img src="https://thienlonghuyenthoai.com/resources_landingpage/banner.png" >
+            </a>
+            <span class="date">aaaaaaaaaaaaa</span>
+          </li>
+							 
+                 
+                  </ul>
+      
+
+</body></html>
