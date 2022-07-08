@@ -1,0 +1,5 @@
+VERSION 1  
+ 
+SERVER_BEGIN  
+Thiên Long Huy«n ThoÕi ,LÕc Dß½ng,1,149,3,0,0,Máy chü M¾i,192.168.0.1:0000,,,
+SERVER_END
